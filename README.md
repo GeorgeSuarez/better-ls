@@ -20,4 +20,6 @@ better-ls <PATH>
 
 ```
 
-## Screen Shots
+## Screen Shot
+
+![better-ls-usage](screenshots/example-usage.png)
