@@ -37,7 +37,12 @@ struct FileEntry {
 }
 
 #[derive(Debug, Parser)]
-#[command(version, about, long_about = "Way better ls output", arg_required_else_help = true)]
+#[command(
+    version,
+    about,
+    long_about = "Way better ls output",
+    arg_required_else_help = false
+)]
 struct CLI {
     path: Option<PathBuf>,
     #[arg(short, long)]
